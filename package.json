@@ -1,0 +1,23 @@
+{
+	"name": "svrdemo2",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.13.0",
+		"svelte": "^3.57.0",
+		"svelte-check": "^3.1.4",
+		"typescript": "^5.0.2",
+		"vite": "^4.2.1"
+	},
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/adapter-static": "^2.0.1"
+	}
+}
